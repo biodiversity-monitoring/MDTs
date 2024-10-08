@@ -1,0 +1,26 @@
+Package: MDTs
+Type: Package
+Title: An R package for analyzing and visualizing multidimensional
+        traits in plants
+Version: 0.1.0
+Authors@R: c(
+    person("Yan", "He",  email = "heyan@njfu.edu.cn", role = c("aut", "cre")),
+    person("Lingfeng", "Mao",  email = "maolingfeng2008@163.com", role = "aut"))
+Maintainer: Yan He <heyan@njfu.edu.cn>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+Imports: ggtern, igraph, Hmisc, corrplot, scatterplot3d, vegan, ggrepel
+Depends: R (>= 4.0), ggplot2
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+BuildVignettes: false
+NeedsCompilation: no
+Packaged: 2024-10-08 08:25:42 UTC; Administrator
+Author: Yan He [aut, cre],
+  Lingfeng Mao [aut]
